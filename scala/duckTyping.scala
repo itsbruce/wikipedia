@@ -14,7 +14,7 @@ class Person {
 }
 
 import duckTypes._
-import scala.languageFeature.reflectiveCalls
+// import scala.languageFeature.reflectiveCalls
 
 def inTheForest(duck: DuckLike) = {
   println(duck.quack)
@@ -24,4 +24,4 @@ def inTheForest(duck: DuckLike) = {
 val donald = new Duck
 val john = new Person
 inTheForest(donald)
-inTheForest(duck)
+inTheForest(john)
